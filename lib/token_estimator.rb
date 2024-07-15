@@ -13,6 +13,8 @@ module TokenEstimator
   class UnsupportedFileTypeError < StandardError; end
 
   class Estimator
+    SUPPORTED_FILE_TYPES = [".txt", ".csv", ".pdf", ".json", ".md", ".html", ".xlsx"]
+
     def initialize(tokenizer_name)
       @tokenizer = Tokenizers.from_pretrained(tokenizer_name)
     end

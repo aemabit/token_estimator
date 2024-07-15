@@ -84,4 +84,16 @@ RSpec.describe TokenEstimator do
     tokens = token_estimator.count_tokens_from_json(nested_json)
     expect(tokens).to eq(33)
   end
+
+  it "should return all supported file types" do
+    supported_file_types = TokenEstimator::Estimator::SUPPORTED_FILE_TYPES
+
+    expect(supported_file_types).to include(".txt")
+    expect(supported_file_types).to include(".csv")
+    expect(supported_file_types).to include(".pdf")
+    expect(supported_file_types).to include(".json")
+    expect(supported_file_types).to include(".md")
+    expect(supported_file_types).to include(".html")
+    expect(supported_file_types).to include(".xlsx")
+  end
 end

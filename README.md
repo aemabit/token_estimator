@@ -72,6 +72,9 @@ Counts tokens from a JSON object.
 #### `count_tokens_from_html`
 Counts tokens from an HTML string.
 
+#### `supported_file_types`
+Return the supported file types.
+
 ## Roadmap
 Here is a checklist of the formats we currently support for token counting and those we plan to support in the future:
 

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    token_estimator (0.1.0)
+    token_estimator (0.1.1)
       csv (~> 3.3)
       kramdown (~> 2.4)
       nokogiri (~> 1.16, >= 1.16.6)
