@@ -2,7 +2,7 @@
 
 ## [0.1.1] - 2024-07-15
 
-- Added `supported_file_types` method to specify supported file types.
+- Added `TokenEstimator::Estimator::SUPPORTED_FILE_TYPES` method to specify supported file types.
 
 ## [0.1.0] - 2024-07-11
 

@@ -72,7 +72,7 @@ Counts tokens from a JSON object.
 #### `count_tokens_from_html`
 Counts tokens from an HTML string.
 
-#### `supported_file_types`
+#### `TokenEstimator::Estimator::SUPPORTED_FILE_TYPES`
 Return the supported file types.
 
 ## Roadmap
